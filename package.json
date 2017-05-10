@@ -1,0 +1,30 @@
+{
+  "name": "oaback",
+  "version": "0.0.0",
+  "description": "Océano Azul Eventos Back-end",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas9005/oaback.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Lucas Aaron Ruggiero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucas9005/oaback/issues"
+  },
+  "homepage": "https://github.com/lucas9005/oaback#readme"
+}
